@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: white;
 }
 
 /*colors used:
@@ -85,4 +85,14 @@ a:active {
 .button.contact:hover {
   background-color: #ff7f50;
   color: #ffffff !important;
+}
+
+#hero {
+  background-color: #ff7f50;
+  color: #ffffff
+}
+
+#Work {
+  background-color: #ff7f50;
+  color: #ffffff
 }
