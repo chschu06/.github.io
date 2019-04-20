@@ -1,13 +1,17 @@
 body {
-  background-color: white;
+  background-color: gray;
 }
 
 /*colors used:
 Primary Color (Blue): #4A90E2;
 Secondary Color (Gray): #CFCFCF;
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #CFCFCF;
+  background-color: #4A90E2;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -46,27 +50,27 @@ a {
   color: #ff7f50 text-decoration: none;
 }
 
-a:hover,
+nav>ul>li>a:hover,
 a:focus {
   color: #cc6540;
   text-decration: underline;
 }
 
-a:visited {
+nav>ul>li>a:visited {
   color: #ff7f50;
 }
 
-a:active {
+nav>ul>li>a:active {
   /*selected link*/
   color: #994c30
 }
 
 .button {
   display: inline-block;
-  background-color #ff7f50 color: #ffffff !important font-weight: 400;
+  background-color #ff7f50 color: #FFFFFF !important font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30;
+  border-bottom: 2px solid #000000;
   transition: 0.2s opacity;
 }
 
@@ -77,22 +81,82 @@ a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #ff7f50 !important;
+  color: #000000 !important;
   text-transform: uppercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid #000000;
 }
 
 .button.contact:hover {
-  background-color: #ff7f50;
-  color: #ffffff !important;
+  background-color: #000000;
+  color: #000000 !important;
 }
 
 #hero {
-  background-color: #ff7f50;
-  color: #ffffff
+  background-color: #EEEDED;
+  color: #000000
 }
 
 #Work {
-  background-color: #ff7f50;
-  color: #ffffff
+  background-color: #EEEDED;
+  color: #000000
+}
+
+#navigation {
+  background-color: #4A90E2;
+  color: #000000 display: inline-block;
+}
+
+header {
+  background-color: #4A90E2 padding: 10px;
+  text-align: center;
+  margin: 10px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  position: relative;
+}
+
+/* Layout Stylings*/
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0.67em 0;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+main {
+  padding-top: 133px;
 }
