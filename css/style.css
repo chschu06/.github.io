@@ -173,20 +173,12 @@ main {
   position: relative;
 }
 
-.navtoggle li .icon {
-  padding-right: 0;
-  ,
-  position: absolute;
-  right: 0;
-  top: 2px;
-  font-size: 20px;
-}
-
-navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5)
+  border-top: 1px solid rgba(255, 127, 80, 0.5)
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -215,6 +207,13 @@ Medium devices (640px and larger)
 
   .navtoggle li:last-child {
     display: none;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
   }
 
   .col-md-6 {
