@@ -3,7 +3,7 @@ body {
 }
 
 /*colors used:
-Primary Color (Blue): #4A90E2;
+Primary Color (Blue): #359BD2;
 Secondary Color (Gray): #CFCFCF;
 */
 * {
@@ -11,11 +11,11 @@ Secondary Color (Gray): #CFCFCF;
 }
 
 body {
-  background-color: #4A90E2;
+  background-color: #CFCFCF;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 300;
-  line-height: 1.6 color: #4A90E2;
+  line-height: 1.6; color: #CFCFCF;
 }
 
 h1, h2, h3, h4 {
@@ -47,13 +47,13 @@ img {
 }
 
 a {
-  color: #ff7f50 text-decoration: none;
+  color: #ff7f50; text-decoration: none;
 }
 
 nav>ul>li>a:hover,
 a:focus {
   color: #cc6540;
-  text-decration: underline;
+  text-decoration: underline;
 }
 
 nav>ul>li>a:visited {
@@ -67,7 +67,7 @@ nav>ul>li>a:active {
 
 .button {
   display: inline-block;
-  background-color #ff7f50 color: #FFFFFF !important font-weight: 400;
+  background-color #ff7f50; color: #FFFFFF !important font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -108,12 +108,12 @@ nav>ul>li>a:active {
 }
 
 #navigation {
-  background-color: #4A90E2;
-  color: #000000 display: inline-block;
+  background-color: #CFCFCF;
+  color: #000000; display: inline-block;
 }
 
 header {
-  background-color: #4A90E2 padding: 10px;
+  background-color: #CFCFCF; padding: 10px;
   max-width: 150px;
   margin: 10px;
   padding: 10px 0 4px;
@@ -133,7 +133,7 @@ header {
   /* 25px top and bottom, 0 left and right */
 }
 
-#work .row {
+#work.row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
@@ -190,7 +190,7 @@ Medium devices (640px and larger)
 
   nav {
     width: auto;
-    float: right margin-top: 4px;
+    float: right; margin-top: 4px;
   }
 
   nav>ul {
@@ -267,99 +267,4 @@ Extra-large devices (1920px or larger)
 
 #about-page h3 {
   margin-top: 0;
-}
-
-transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
-
-@keyframes color-change {
-  from {
-    fill: #edc655;
-  }
-
-  to {
-    fill: #f76414;
-  }
-}
-
-.p223 {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-.p248 {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-.p253 {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-.p254 {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-img:hover {
-  animation: shake .25s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
 }
