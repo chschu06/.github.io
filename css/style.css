@@ -67,7 +67,7 @@ nav>ul>li>a:active {
 
 .button {
   display: inline-block;
-  background-color #ff7f50; color: #FFFFFF !important font-weight: 400;
+  background-color: #ff7f50; color: #FFFFFF !important font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -108,7 +108,7 @@ nav>ul>li>a:active {
 }
 
 #navigation {
-  background-color: #484848;
+  background-color: #000000;
   color: #000000; display: inline-block;
 }
 
